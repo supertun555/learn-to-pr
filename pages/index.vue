@@ -15,6 +15,7 @@
       <nuxt-link to="/chonticha">chonticha</nuxt-link><br>
       <nuxt-link to="/Nat">Nat</nuxt-link><br>
  <nuxt-link to="/Withawit">Withawit</nuxt-link> <br>
+ <nuxt-link to="/kittitah">Kittitah</nuxt-link><br>
       
     
       
