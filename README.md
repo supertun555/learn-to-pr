@@ -1,6 +1,5 @@
-# learn-to-pr
-
-> Nuxt.js project
+# learn-to-pr [![Build Status](https://travis-ci.org/saturday-js/learn-to-pr.svg?branch=master)](https://travis-ci.org/saturday-js/learn-to-pr)
+> [https://saturday-js.github.io/learn-to-pr/](https://saturday-js.github.io/learn-to-pr/)
 
 ## Build Setup
 

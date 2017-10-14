@@ -1,7 +1,18 @@
 <template>
   <section class="container">
-    <h1>Learn to PR</h1>
-    <nuxt-link to="/vue">Nutdanai</nuxt-link>
+    <div>
+      <h1>Learn to PR</h1>
+      <nuxt-link to="/Pepae">PepaeTheCompany</nuxt-link><br>
+      <nuxt-link to="Sahphan">Sahaphan</nuxt-link> <br>
+      <nuxt-link to="Rachata">Rachata</nuxt-link><br>
+      <nuxt-link to="/sirirat">sirirat</nuxt-link><br>
+      <nuxt-link to="warakana">About</nuxt-link><br>
+      <nuxt-link to="Rittiphon">Rittiphon</nuxt-link><br>
+      <nuxt-link to="/chonticha">chonticha</nuxt-link><br>
+      <nuxt-link to="/Nat">Nat</nuxt-link><br>
+      <nuxt-link to="/Withawit">Withawit</nuxt-link><br>
+      <nuxt-link to="/nutdanai">Nutdanai</nuxt-link><br>
+    </div>
   </section>
 </template>
 
