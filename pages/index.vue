@@ -12,6 +12,8 @@
       <nuxt-link to="/Nat">Nat</nuxt-link><br>
       <nuxt-link to="/Withawit">Withawit</nuxt-link><br>
       <nuxt-link to="/nutdanai">Nutdanai</nuxt-link><br>
+
+     <nuxt-link to="kanyaruk">kanyaruk</nuxt-link><br>
       <nuxt-link to="jack">Jack</nuxt-link><br>
       <nuxt-link to="nuttakit">Nuttakit</nuxt-link><br>
       <nuxt-link to="/calculate">Taveechai</nuxt-link><br>
