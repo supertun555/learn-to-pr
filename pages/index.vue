@@ -1,17 +1,9 @@
 <template>
   <section class="container">
-    <div>
-      <h1>Learn to PR</h1>
-    </div>
+    <h1>Learn to PR</h1>
+    <nuxt-link to="/vue">Nutdanai</nuxt-link>
   </section>
 </template>
-
-<script>
-export default {
-  components: {
-  }
-}
-</script>
 
 <style>
 </style>
