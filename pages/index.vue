@@ -15,6 +15,7 @@
       <nuxt-link to="Rittiphon">Rittiphon</nuxt-link>
       <nuxt-link to="/chonticha">chonticha</nuxt-link>
       <nuxt-link to="/Nat">Nat</nuxt-link>
+      <nuxt-link to="/Withawit">Withawit</nuxt-link>
     </div>
 
     <h1>MEAL EXPRESS!</h1>
