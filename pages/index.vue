@@ -8,6 +8,7 @@
       <nuxt-link to="warakana">About</nuxt-link>
       <nuxt-link to="Rittiphon">Rittiphon</nuxt-link>
       <nuxt-link to="/chonticha">chonticha</nuxt-link>
+      <nuxt-link to="/Nat">Nat</nuxt-link>
     </div>
   </section>
 </template>
