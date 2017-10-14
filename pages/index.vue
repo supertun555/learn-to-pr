@@ -3,6 +3,7 @@
     <div>
       <h1>Learn to PR</h1>
     </div>
+    <nuxt-link to="/calculate">Taveechai</nuxt-link>
   </section>
 </template>
 
@@ -11,7 +12,3 @@ export default {
   components: {
   }
 }
-</script>
-
-<style>
-</style>
