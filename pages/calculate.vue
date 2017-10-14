@@ -46,15 +46,10 @@ export default {
 
   data () {
     return {
-    cal: 0,
     }
   },
 
   methods: {
-    plus () {
-    document.getElementById("show").innerHTML = 9
-
-    }
   }
 }
 </script>
