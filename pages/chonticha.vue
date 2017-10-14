@@ -1,0 +1,112 @@
+<template>
+  <div class="hello">
+    <FONT FACE="supermarket" color="#FFFFFF"><h1 style="background-color:Tomato;">Calcurator for shop</h1></font>
+      <table>
+        <tr>
+          <td colspan="3"> <h1>{{num1}}</h1></td>
+        </tr>
+        <tr>
+          <td colspan="3"><h3>{{discount}}</h3></td>
+        </tr>
+        <tr>
+          <td colspan="3"><h2>{{result}}</h2></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td colspan="3"><hr></td>
+        </tr>
+        <tr>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.9,'-10%')">10%</button></td>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.8,'-20%')">20%</button></td>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.7,'-30%')">30%</button></td>
+        </tr>
+        <tr>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.6,'-40%')">40%</button></td>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.5,'-50%')">50%</button></td>
+          <td><button style = "background-color:#FF9966; border-radius:10px;" @click="summation(0.4,'-60%')">60%</button></td>
+        </tr>
+        <tr>
+          <td colspan="3"><hr></td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('7')">7</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('8')">8</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('9')">9</button></td>
+
+        </tr>
+        <tr>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('4')">4</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('5')">5</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('6')">6</button></td>
+
+        </tr>
+        <tr>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('1')">1</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('2')">2</button></td>
+          <td><button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('3')">3</button></td>
+        </tr>
+        <tr>
+          <td><button style = "background-color:#FF6633; border-radius:10px;" @click="clear()">c</button></td>
+          <button style = "background-color:#FF9933; border-radius:10px;" @click="clickNum('0')">0</button>
+          <td><button style = "background-color:#FF6633; border-radius:10px;" @click="backSpace()"><</button></td>
+
+        </tr>
+      </table>
+    </div>
+  </template>
+  <script>
+  export default {
+    name: 'hello',
+    data () {
+      return {
+        result: '',
+        num: '',
+        num1: '',
+        backNum: 0,
+        discount: ''
+      }
+    },
+    methods: {
+      clickNum: function (num) {
+        this.result += num
+      },
+      clear: function () {
+        this.num1 = ''
+        this.discount = ''
+        this.result = ''
+      },
+      summation: function (dis, discountN) {
+        this.num1 = this.result
+        this.result = this.num1 * dis
+        this.discount = discountN
+      },
+      backSpace: function () {
+        this.backNum = this.result * 1
+        this.result = (this.backNum / 10)
+      }
+    }
+  }
+  </script>
+
+  <style >
+  table {
+    margin: auto;
+  }
+  button {
+      background-color: green; /* Green */
+      border: none;
+      width:100%;
+      color: white;
+      padding: 20px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Microsoft JhengHei UI';
+      cursor: pointer;
+  }
+  </style>
