@@ -15,15 +15,15 @@
       
     
       
-      <nuxt-link to="/Withawit">Withawit</nuxt-link> <br>
+    
+
+      <nuxt-link to="/Withawit">Withawit</nuxt-link><br>
+      <nuxt-link to="/nutdanai">Nutdanai</nuxt-link><br>
+
+     
       <nuxt-link to="jack">Jack</nuxt-link><br>
+
     </div>
     <nuxt-link to="/calculate">Taveechai</nuxt-link>
   </section>
 </template>
-
-<script>
-export default {
-  components: {
-  }
-}
