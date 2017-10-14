@@ -19,6 +19,7 @@
     
       
     </div>
+    <nuxt-link to="/calculate">Taveechai</nuxt-link>
   </section>
 </template>
 
@@ -27,7 +28,3 @@ export default {
   components: {
   }
 }
-</script>
-
-<style>
-</style>
