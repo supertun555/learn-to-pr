@@ -36,8 +36,6 @@ export default {
       count: 0
     }
   },
-  components: {
-  },
   methods: {
     input (num) {
       this.count++
