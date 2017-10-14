@@ -17,6 +17,7 @@
       <nuxt-link to="jack">Jack</nuxt-link><br>
       <nuxt-link to="nuttakit">Nuttakit</nuxt-link><br>
       <nuxt-link to="/calculate">Taveechai</nuxt-link><br>
+      <nuxt-link to="/kittitah">Kittitah</nuxt-link><br>
     </div>
   </section>
 </template>
