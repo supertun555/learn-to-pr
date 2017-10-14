@@ -4,8 +4,8 @@
       <h1>{{name}}</h1>
         todoList <br>
 				<table>
-					<tr v-for="(name,index) in data">
-						<td>
+					<tr @v-for="(name, index) in data">
+						<td key={index}>
 							{{name.first}}
 						</td>
 						<td>
