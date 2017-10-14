@@ -34,5 +34,8 @@ module.exports = {
         })
       }
     }
+  },
+  router: {
+    base: '/learn-to-pr/'
   }
 }
