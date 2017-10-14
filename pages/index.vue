@@ -2,7 +2,8 @@
   <section class="container">
     <div>
       <h1>Learn to PR</h1>
-      <nuxt-link to="/Rachata">Rachata(Fluk)</nuxt-link>
+      <nuxt-link to="Sahphan">Sahaphan</nuxt-link> <br>
+      <nuxt-link to="Rachata">Rachata</nuxt-link>
     </div>
   </section>
 </template>
