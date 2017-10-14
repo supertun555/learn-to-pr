@@ -9,6 +9,7 @@
       <nuxt-link to="Rittiphon">Rittiphon</nuxt-link>
       <nuxt-link to="/chonticha">chonticha</nuxt-link>
       <nuxt-link to="/Nat">Nat</nuxt-link>
+      <nuxt-link to="jack">Jack</nuxt-link>
     </div>
   </section>
 </template>
