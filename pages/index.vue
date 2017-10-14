@@ -5,6 +5,7 @@
       <nuxt-link to="Sahphan">Sahaphan</nuxt-link> <br>
       <nuxt-link to="Rachata">Rachata</nuxt-link>
       <nuxt-link to="/sirirat">sirirat</nuxt-link>
+      <nuxt-link to="warakana">About</nuxt-link>
     </div>
   </section>
 </template>
