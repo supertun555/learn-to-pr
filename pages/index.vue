@@ -5,7 +5,7 @@
 
 
 
-<nuxt-link to="/Pepae">PepaeTheCompany</nuxt-link>
+      <nuxt-link to="/Pepae">PepaeTheCompany</nuxt-link>
       <nuxt-link to="Sahphan">Sahaphan</nuxt-link> <br>
       <nuxt-link to="Rachata">Rachata</nuxt-link>
       <nuxt-link to="/sirirat">sirirat</nuxt-link>
