@@ -14,7 +14,7 @@
       <nuxt-link to="/Withawit">Withawit</nuxt-link><br>
       <nuxt-link to="/nutdanai">Nutdanai</nuxt-link><br>
 
-     
+     <nuxt-link to="kanyaruk">kanyaruk</nuxt-link><br>
       <nuxt-link to="jack">Jack</nuxt-link><br>
 
     </div>
