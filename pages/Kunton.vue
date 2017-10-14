@@ -27,16 +27,6 @@
               </select>
 
     </div><br>
-
-
-
-
-
-
-
-
-
-
                                 <br>   <div class="col-md-12">
                                        <div class="form-group">
                                            <!-- Replace data-sitekey with your own one, generated at https://www.google.com/recaptcha/admin -->
