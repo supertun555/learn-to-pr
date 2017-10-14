@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <h1>Learn to PR</h1>
-      <nuxt-link to="/sirirat">About</nuxt-link>
+      <nuxt-link to="/sirirat">sirirat</nuxt-link>
     </div>
   </section>
 </template>
